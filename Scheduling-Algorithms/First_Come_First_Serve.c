@@ -29,9 +29,9 @@ int main(void) {
        wt[i]=tat[i]-bt[i];
     }
     printf("The Complete details are -- \n");
-    printf("P   AT  BT   CT     TAT       WT\n");
+    printf("P     AT      BT     CT        TAT       WT\n");
     for(i=0;i<n;i++) {
-        printf("%d   %d   %d     %d       %d       %d\n",processes[i],at[i],bt[i],ct[i],tat[i],wt[i]);
+        printf("%d      %d      %d      %d          %d          %d\n",processes[i],at[i],bt[i],ct[i],tat[i],wt[i]);
         TAT+=tat[i];
         WT+=wt[i];
     }
